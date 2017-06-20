@@ -2,8 +2,7 @@ machine:
   post:
     - pyenv global 3.4.4
   python:
-    version: 
-      - python3.4
+    version: python3.4
       
 dependencies: 
   pre: 
