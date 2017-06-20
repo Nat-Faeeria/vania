@@ -1,0 +1,17 @@
+machine:
+  post:
+    - pyenv global 3.4.4 3.5 3.6
+  python:
+    version: 
+      - python3.4
+      - python3.5
+      - python3.6
+
+
+dependencies: 
+  pre: 
+    - pip install .
+
+compile: 
+  override: 
+    - python setup.py test
